@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PrintingPhotos</string>
+    <string name="display_text">Pressing the print button below will open the print dialogue box to print a photo set in the code.</string>
+    <string name="print">PRINT</string>
 </resources>

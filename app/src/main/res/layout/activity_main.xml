@@ -10,7 +10,22 @@
     tools:context="skillbooting.printingphotos.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/display_text"
+        android:textSize="@dimen/button_text_size"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/print"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorButtonText"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:onClick="print"
+        />
+
 </RelativeLayout>
